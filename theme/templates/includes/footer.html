@@ -1,0 +1,25 @@
+{{define "footer"}}
+
+    {{if or .PageParams.PreviousPage .PageParams.NextPage}}
+        <hr>
+        {{if .PageParams.PreviousPage}}
+        <a href="/{{.PageParams.PreviousPage}}.html" style="float:left;">
+            <- Previous page
+        </a>
+        {{end}}
+        {{if .PageParams.Next}}
+            <a href="/{{.PageParams.NextPage}}.html" style="float:right;">
+                Next page->
+            </a>
+        {{end}}
+        <br>
+    {{end}}
+    <hr>
+
+    <div>Powered by
+        <a href="https://golang.org/">Go</a>,
+        <a href="https://github.com/ellifteria/grafe">graf&emacr;</a>, and
+        <a href="https://github.com/ellifteria/grafe-tuftexx">graf&emacr; Tufte++</a>
+    </div>
+
+{{end}}

@@ -1,0 +1,19 @@
+{{define "topFooter"}}
+
+    {{if or .PageParams.PreviousPage .PageParams.NextPage}}
+        <hr>
+        {{if .PageParams.PreviousPage}}
+        <a href="/{{.PageParams.PreviousPage}}.html" style="float:left;">
+            <- Previous page
+        </a>
+        {{end}}
+        {{if .PageParams.Next}}
+            <a href="/{{.PageParams.NextPage}}.html" style="float:right;">
+                Next page->
+            </a>
+        {{end}}
+        <br>
+    {{end}}
+    <hr>
+
+{{end}}
