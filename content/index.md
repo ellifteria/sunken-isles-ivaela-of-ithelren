@@ -1,5 +1,5 @@
 ---
-Title: Wonders of the Lands of the Worlds
+Title: Wonders of the Lands of the World
 Summary: Ivaela of Ithelren
 Tags:
 - Home
