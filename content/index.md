@@ -9,5 +9,6 @@ Template: page
 
 ## Contents
 
-<!-- - [[programming-languages/index|Programming Languages]] -->
 1. [[introduction/index|Introduction]]
+2. ### Volume 1. Travels through the Isles of Manaki
+    1. [[manaki/0-to-the-isles|Reaching the Isles]]
