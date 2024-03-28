@@ -1,7 +1,7 @@
 {{template "base" .}}
 
 {{define "header"}}
-    <title>{{.Title}}</title>
+    <title>{{.PageParams.Title}}</title>
 {{end}}
 
 {{define "content"}}
@@ -16,7 +16,7 @@
             {{else}}    
                 <a href="/">
             {{end}}
-            &#8592;  Back 
+            &#8592;Back 
             {{if .PageParams.BackLinkText}}
                 to {{.PageParams.BackLinkText}}
             {{end}}

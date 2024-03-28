@@ -4,7 +4,7 @@ Summary: Ivaela of Ithelren
 Tags:
 - Home
 date: 24-01-03
-Template: page
+template: page
 ---
 
 ## Contents
